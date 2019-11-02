@@ -1,0 +1,170 @@
+body{
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    margin: 0%;
+
+}
+h2{
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    margin: 0%;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.profile p{
+    font-family: 'McLaren', cursive;
+    font-size: 25px;
+
+}
+
+.avatar{
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+    margin:10px;
+}
+
+.top{
+    background-color: aqua;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle{
+    background-color: #ecfcff;
+   
+}
+.bottom{
+    background-color: #1f6650;
+    margin: 0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 45px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left:250px;
+    bottom: 200px;
+    margin-bottom: 450px;
+}
+
+.mount{
+    margin-top: 100px;
+    height: 590px;
+    width: 1404px;
+    display: inline-block;
+}
+    
+hr{
+    border-style: dotted none none ;
+    border-top-color: rgb(108, 116, 108);
+    border-top-width: 10px;                
+    width: 40%;
+
+}
+.desktop{
+   display: inline-block;
+   position: relative;
+   right:70px;
+   margin: 0%;
+   padding-top: 50px;
+}
+
+.skills  h2{
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    margin: 0%;
+}
+.skill-row-1 h3{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin: 0%;
+    position: absolute;
+    left:470px;
+    top:1720px;
+}
+ 
+.skill-row-1 p{
+    margin: 0%;
+    display: inline-block;
+    position: relative;
+    right: 60px;
+    font-family: 'McLaren', cursive;
+    font-size: 25px;
+    text-align:left;
+}
+.python{
+    display: inline-block;
+   position: relative;
+   left:110px;
+   top:50px;
+
+}
+
+.skill-row-2 h3{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin: 0%;
+    position: absolute;
+    left:550px;
+    top:1928px;
+}
+
+.skill-row-2 p{
+    margin: 0%;
+    display: inline-block;
+    position: relative;
+    left:135px;
+    top:50px;
+    font-family: 'McLaren', cursive;
+    font-size: 25px;
+    text-align:left;
+}
+.contact-me{
+    margin: 0%;
+    padding-bottom: 20px;;
+}
+
+.bottom p{
+    margin-top: 20px;
+    margin-bottom: 0%;
+
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #80b87d;
+	background:linear-gradient(to bottom, #bdf0cb 5%, #8cc983 100%);
+	background-color:#bdf0cb;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #8cc983 5%, #bdf0cb 100%);
+	background-color:#8cc983;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
